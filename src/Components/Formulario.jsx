@@ -2,6 +2,7 @@ import React from 'react'
 
 const Formulario = ({setCumpleaniero, setStyles, handleSubmit}) => {
 
+  
   return (
     <form onSubmit={handleSubmit}>
         <label >Nombre del cumpleañero</label>
